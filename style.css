@@ -20,7 +20,7 @@
       font-family: var(--sans);
       font-weight: 300;
       overflow-x: hidden;
-      cursor: none;
+      cursor: pointer;
     }
 
     /* NAV */
@@ -420,7 +420,7 @@
       overflow: hidden;
       background: var(--brown);
       aspect-ratio: 4/3;
-      cursor: none;
+      cursor: pointer;
     }
     .work-card.tall { aspect-ratio: 3/4; grid-row: span 2; }
     .work-card-bg {
