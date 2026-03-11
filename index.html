@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nisrine — Web Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a class="nav-logo" href="#">Romaysa</a>
+    <ul class="nav-links">
+      <li><a href="#about">Over mij</a></li>
+      <li><a href="#services">Diensten</a></li>
+      <li><a href="#work">Werk</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+
+    <!-- Floral SVG Left -->
+    <svg class="hero-floral-left" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M200 450 C180 400 120 360 100 300 C80 240 110 180 150 140 C190 100 230 80 200 30" stroke="white" stroke-width="1.5" fill="none"/>
+      <ellipse cx="130" cy="180" rx="70" ry="90" transform="rotate(-30 130 180)" stroke="white" stroke-width="1" fill="none"/>
+      <ellipse cx="175" cy="240" rx="60" ry="80" transform="rotate(20 175 240)" stroke="white" stroke-width="1" fill="none"/>
+      <ellipse cx="220" cy="160" rx="55" ry="75" transform="rotate(-50 220 160)" stroke="white" stroke-width="1" fill="none"/>
+      <circle cx="200" cy="200" r="12" stroke="white" stroke-width="1" fill="none"/>
+      <path d="M200 200 L180 170 M200 200 L165 195 M200 200 L175 225 M200 200 L205 165 M200 200 L225 185 M200 200 L220 215" stroke="white" stroke-width="0.8"/>
+    </svg>
+
+    <!-- Floral SVG Right -->
+    <svg class="hero-floral" viewBox="0 0 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M350 650 C320 580 260 530 230 460 C200 390 220 310 270 250 C320 190 390 160 350 80" stroke="white" stroke-width="2" fill="none"/>
+      <ellipse cx="270" cy="310" rx="100" ry="130" transform="rotate(-25 270 310)" stroke="white" stroke-width="1.2" fill="none"/>
+      <ellipse cx="340" cy="400" rx="90" ry="120" transform="rotate(15 340 400)" stroke="white" stroke-width="1.2" fill="none"/>
+      <ellipse cx="420" cy="280" rx="85" ry="115" transform="rotate(-55 420 280)" stroke="white" stroke-width="1.2" fill="none"/>
+      <ellipse cx="290" cy="200" rx="75" ry="105" transform="rotate(35 290 200)" stroke="white" stroke-width="1.2" fill="none"/>
+      <ellipse cx="460" cy="380" rx="80" ry="110" transform="rotate(-10 460 380)" stroke="white" stroke-width="1.2" fill="none"/>
+      <circle cx="350" cy="340" r="20" stroke="white" stroke-width="1.5" fill="none"/>
+      <path d="M350 340 L320 295 M350 340 L295 330 M350 340 L315 370 M350 340 L360 295 M350 340 L390 315 M350 340 L385 360 M350 340 L370 380" stroke="white" stroke-width="1"/>
+      <path d="M150 500 C200 470 240 430 260 380" stroke="white" stroke-width="1" fill="none" stroke-dasharray="4 8"/>
+      <path d="M500 150 C470 200 430 250 400 300" stroke="white" stroke-width="1" fill="none" stroke-dasharray="4 8"/>
+    </svg>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Web Design · Zaanstreek</p>
+      <h1 class="hero-title">
+        Websites die<br>
+        <em>vertellen</em><br>
+        wie jij bent.
+      </h1>
+      <p class="hero-sub">Ik bouw prachtige, doelgerichte websites voor ondernemers die willen opvallen — op maat gemaakt, met oog voor detail.</p>
+      <a href="#work" class="hero-cta">Bekijk mijn werk →</a>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <div class="section-label reveal">Over mij</div>
+      <h2 class="about-title reveal reveal-delay-1">
+        Ik ben Romaysa —<br>
+        <em>designer</em> &amp; bouwer<br>
+        van digitale ervaringen.
+      </h2>
+      <p class="about-body reveal reveal-delay-2">
+        Vanuit Zaanstreek help ik kleine ondernemers en creatieven met websites die niet alleen mooi zijn, maar ook echt werken. Ik geloof dat een website jouw verhaal moet vertellen — persoonlijk, verfijnd, en precies goed.
+        <br><br>
+        Elk project begin ik met luisteren. Want de mooiste websites groeien vanuit jouw visie.
+      </p>
+      <div class="about-stats reveal reveal-delay-3">
+        <div>
+          <div class="stat-num">01</div>
+          <div class="stat-label">Opgeleverd project</div>
+        </div>
+        <div>
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Creativiteit</div>
+        </div>
+        <div>
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Op maat gemaakt</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-visual">
+      <div class="about-visual-inner"></div>
+      <div class="about-floral-svg">
+        <svg viewBox="0 0 500 600" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:85%; opacity:0.25;">
+          <path d="M250 560 C230 500 170 460 150 390 C130 320 160 250 200 200 C240 150 280 130 250 60" stroke="#3a2f22" stroke-width="2" fill="none"/>
+          <ellipse cx="180" cy="260" rx="90" ry="115" transform="rotate(-20 180 260)" stroke="#3a2f22" stroke-width="1.5" fill="none"/>
+          <ellipse cx="240" cy="350" rx="80" ry="105" transform="rotate(18 240 350)" stroke="#3a2f22" stroke-width="1.5" fill="none"/>
+          <ellipse cx="310" cy="230" rx="75" ry="100" transform="rotate(-48 310 230)" stroke="#3a2f22" stroke-width="1.5" fill="none"/>
+          <ellipse cx="200" cy="170" rx="65" ry="90" transform="rotate(30 200 170)" stroke="#3a2f22" stroke-width="1.5" fill="none"/>
+          <circle cx="250" cy="290" r="16" stroke="#3a2f22" stroke-width="1.5" fill="none"/>
+          <path d="M250 290 L225 252 M250 290 L210 278 M250 290 L222 315 M250 290 L258 252 M250 290 L282 265 M250 290 L278 308" stroke="#3a2f22" stroke-width="1"/>
+          <path d="M100 450 C150 420 190 380 210 330" stroke="#3a2f22" stroke-width="1" fill="none" stroke-dasharray="5 10"/>
+          <path d="M370 120 C340 170 300 220 275 270" stroke="#3a2f22" stroke-width="1" fill="none" stroke-dasharray="5 10"/>
+        </svg>
+      </div>
+      <p class="about-quote">"Elk merk verdient een website<br>die zo uniek is als zijzelf."</p>
+    </div>
+  </section>
+
+  <div class="floral-divider">✦ &nbsp;&nbsp; ✦ &nbsp;&nbsp; ✦</div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="services-bg"></div>
+    <div class="services-header">
+      <div class="section-label reveal" style="justify-content:center;color:var(--taupe);opacity:0.7;">Wat ik doe</div>
+      <h2 class="services-title reveal">
+        Websites met een<br><em>ziel.</em>
+      </h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <h3 class="service-name"><em>Website</em><br>Design & Bouw</h3>
+        <p class="service-desc">Van eerste schets tot live website. Ik ontwerp en bouw volledig op maat gemaakte websites die jouw merk tot leven brengen — elegant, snel en mobielvriendelijk.</p>
+        <div class="service-arrow">Meer info</div>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">02</div>
+        <h3 class="service-name"><em>Branding</em><br>&amp; Identiteit</h3>
+        <p class="service-desc">Een sterke online aanwezigheid begint bij een helder verhaal. Ik help je nadenken over kleuren, typografie en uitstraling die echt bij jou passen.</p>
+        <div class="service-arrow">Meer info</div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">03</div>
+        <h3 class="service-name"><em>Onderhoud</em><br>&amp; Updates</h3>
+        <p class="service-desc">Jouw website moet altijd up-to-date zijn. Ik bied doorlopende ondersteuning zodat jij je kunt focussen op wat je echt leuk vindt.</p>
+        <div class="service-arrow">Meer info</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="work-header">
+      <div>
+        <div class="section-label reveal">Projecten</div>
+        <h2 class="work-title reveal"><em>Geselecteerd</em><br>werk</h2>
+      </div>
+      <a href="#contact" class="work-link reveal">Samenwerken →</a>
+    </div>
+
+    <div class="work-grid">
+      <div class="work-card work-card-1 tall reveal">
+        <div class="work-card-bg"></div>
+        <div class="work-card-inner">
+          <svg class="botanical-card" viewBox="0 0 300 400" fill="none">
+            <path d="M150 380 C140 340 110 310 100 270 C90 230 105 190 130 160 C155 130 175 115 150 70" stroke="white" stroke-width="1.5" fill="none"/>
+            <ellipse cx="110" cy="200" rx="60" ry="80" transform="rotate(-20 110 200)" stroke="white" stroke-width="1" fill="none"/>
+            <ellipse cx="150" cy="260" rx="55" ry="72" transform="rotate(18 150 260)" stroke="white" stroke-width="1" fill="none"/>
+            <ellipse cx="190" cy="175" rx="52" ry="70" transform="rotate(-45 190 175)" stroke="white" stroke-width="1" fill="none"/>
+          </svg>
+        </div>
+        <div class="work-card-overlay"></div>
+        <div class="work-card-content">
+          <div class="work-card-tag">Website · 2026</div>
+          <div class="work-card-title">Henna by Romaysa</div>
+        </div>
+        <a href="https://hennabyromaysa.netlify.app/" target="_blank" style="position:absolute;inset:0;z-index:10;"></a>
+      </div>
+
+      <div class="work-card work-card-2 reveal reveal-delay-1" style="aspect-ratio:1/1;">
+        <div class="work-card-bg"></div>
+        <div class="work-card-inner">
+          <svg class="botanical-card" viewBox="0 0 300 300" fill="none" style="width:60%;">
+            <circle cx="150" cy="150" r="80" stroke="white" stroke-width="1" fill="none"/>
+            <circle cx="150" cy="150" r="50" stroke="white" stroke-width="0.8" fill="none"/>
+            <circle cx="150" cy="150" r="20" stroke="white" stroke-width="1" fill="none"/>
+            <path d="M150 70 L150 30 M150 230 L150 270 M70 150 L30 150 M230 150 L270 150" stroke="white" stroke-width="1"/>
+            <path d="M106 106 L75 75 M194 106 L225 75 M106 194 L75 225 M194 194 L225 225" stroke="white" stroke-width="0.8"/>
+          </svg>
+        </div>
+        <div class="work-card-overlay"></div>
+        <div class="work-card-content">
+          <div class="work-card-tag">Binnenkort beschikbaar</div>
+          <div class="work-card-title">Jouw project?</div>
+        </div>
+      </div>
+
+      <div class="work-card reveal reveal-delay-2" style="background:#2a2a1e;">
+        <div class="work-card-bg" style="background: linear-gradient(135deg, #2a2a1e 0%, #3a3825 100%);"></div>
+        <div class="work-card-inner">
+          <div style="text-align:center; z-index:2; position:relative; padding:32px;">
+            <div style="font-family:var(--serif);font-size:1.1rem;font-style:italic;color:rgba(255,255,255,0.5);line-height:1.8;">
+              "Samen bouwen we iets<br>bijzonders voor jou."
+            </div>
+          </div>
+        </div>
+        <div class="work-card-overlay"></div>
+        <div class="work-card-content">
+          <div class="work-card-tag">Nieuw project</div>
+          <div class="work-card-title"><a href="#contact" style="color:inherit;text-decoration:none;">Laten we samenwerken →</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="cta-strip">
+    <h2 class="cta-strip-title reveal">Klaar om op te <em>vallen?</em></h2>
+    <p class="cta-strip-sub reveal">Laat me weten wat je droomt. Ik bouw het.</p>
+    <a href="#contact" class="btn-light reveal">Neem contact op →</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-bg"></div>
+    <div class="contact-grid">
+      <div class="contact-left">
+        <div class="section-label reveal" style="color:var(--taupe);opacity:0.7;">Contact</div>
+        <h2 class="contact-title reveal">
+          Laten we<br>
+          <em>kennismaken.</em>
+        </h2>
+        <p class="reveal" style="font-size:0.82rem;line-height:1.9;color:rgba(255,255,255,0.45);max-width:360px;margin-top:8px;">
+          Heb je een idee voor een website, of weet je nog niet precies wat je wilt? Stuur me een berichtje — ik denk graag met je mee.
+        </p>
+        <div class="contact-info">
+          <div class="contact-item reveal">
+            <span class="contact-item-label">E-mail</span>
+            <span class="contact-item-val"><a href="mailto:romaysahamdaoui0@gmail.com">romaysahamdaoui0@gmail.com</a></span>
+          </div>
+          <div class="contact-item reveal">
+            <span class="contact-item-label">Locatie</span>
+            <span class="contact-item-val">Zaanstreek, Nederland</span>
+          </div>
+          <div class="contact-item reveal">
+            <span class="contact-item-label">Instagram</span>
+            <span class="contact-item-val"><a href="https://www.instagram.com/henna_byromaysa/" target="_blank">@henna_byromaysa</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right reveal">
+        <div>
+          <p class="contact-form-label">Jouw naam</p>
+          <input class="contact-input" type="text" placeholder="Naam" id="f-name"/>
+        </div>
+        <div>
+          <p class="contact-form-label">E-mailadres</p>
+          <input class="contact-input" type="email" placeholder="email@voorbeeld.nl" id="f-email"/>
+        </div>
+        <div>
+          <p class="contact-form-label">Bericht</p>
+          <textarea class="contact-textarea" placeholder="Vertel me over je project..." id="f-msg"></textarea>
+        </div>
+        <button class="btn-outline" onclick="submitForm()">Verstuur bericht →</button>
+        <p class="success-msg" id="success">✦ &nbsp; Bedankt! Ik neem snel contact op.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-logo">Romaysa</span>
+    <span class="footer-copy">© 2026 — Web Design & Development</span>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/henna_byromaysa/" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@henna_byromaysa" target="_blank">TikTok</a>
+    </div>
+  </footer>
+
+  <script>
+    // Custom cursor
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursor-ring');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      cursor.style.left = mx + 'px';
+      cursor.style.top = my + 'px';
+    });
+    (function animRing() {
+      rx += (mx - rx) * 0.12;
+      ry += (my - ry) *.12;
+      ring.style.left = rx + 'px';
+      ring.style.top = ry + 'px';
+      requestAnimationFrame(animRing);
+    })();
+    document.querySelectorAll('a, button, .service-card').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursor.style.width = '14px'; cursor.style.height = '14px';
+        ring.style.width = '48px'; ring.style.height = '48px';
+      });
+      el.addEventListener('mouseleave', () => {
+        cursor.style.width = '8px'; cursor.style.height = '8px';
+        ring.style.width = '32px'; ring.style.height = '32px';
+      });
+    });
+
+    // Scroll nav
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => io.observe(el));
+
+    // Form
+    function submitForm() {
+      const n = document.getElementById('f-name').value.trim();
+      const e = document.getElementById('f-email').value.trim();
+      const m = document.getElementById('f-msg').value.trim();
+      if (!n || !e || !m) { alert('Vul alle velden in.'); return; }
+      document.getElementById('success').style.display = 'block';
+      document.getElementById('f-name').value = '';
+      document.getElementById('f-email').value = '';
+      document.getElementById('f-msg').value = '';
+    }
+  </script>
+</body>
+</html>
