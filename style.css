@@ -1,4 +1,4 @@
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
       --dark:    #1e1a14;
@@ -20,8 +20,9 @@
       font-family: var(--sans);
       font-weight: 300;
       overflow-x: hidden;
-      cursor: pointer;
     }
+
+   
 
     /* NAV */
     nav {
@@ -420,7 +421,6 @@
       overflow: hidden;
       background: var(--brown);
       aspect-ratio: 4/3;
-      cursor: pointer;
     }
     .work-card.tall { aspect-ratio: 3/4; grid-row: span 2; }
     .work-card-bg {
@@ -621,7 +621,6 @@
       letter-spacing: 0.22em;
       text-transform: uppercase;
       background: none;
-      cursor: none;
       transition: background 0.3s, color 0.3s;
     }
     .btn-outline:hover { background: var(--taupe); color: var(--dark); }
