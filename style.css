@@ -338,14 +338,6 @@
       overflow: hidden;
       transition: background 0.4s, border-color 0.4s;
     }
-    .service-card::before {
-      content: '';
-      position: absolute;
-      bottom: 0; left: 0;
-      width: 0; height: 1px;
-      background: var(--taupe);
-      transition: width 0.5s ease;
-    }
     .service-card:hover { background: rgba(255,255,255,0.07); border-color: rgba(196,168,130,0.2); }
     .service-card:hover::before { width: 100%; }
     .service-num {
