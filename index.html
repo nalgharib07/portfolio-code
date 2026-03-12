@@ -239,26 +239,26 @@
           </div>
         </div>
       </div>
-      <div class="contact-right reveal">
-        <div>
-          <p class="contact-form-label">Jouw naam</p>
-          <input class="contact-input" type="text" placeholder="Naam" id="f-name"/>
-        </div>
-        <div>
-          <p class="contact-form-label">E-mailadres</p>
-          <input class="contact-input" type="email" placeholder="email@voorbeeld.nl" id="f-email"/>
-        </div>
-        <div>
-          <p class="contact-form-label"> Telefoonnummer</p>
-          <input class="contact-input" type="text" placeholder="06 12 34 56 78" id="f-name"/>
-        </div>
-        <div>
-          <p class="contact-form-label">Bericht</p>
-          <textarea class="contact-textarea" placeholder="Vertel me over je project..." id="f-msg"></textarea>
-        </div>
-        <button class="btn-outline" onclick="submitForm()">Verstuur bericht →</button>
-        <p class="success-msg" id="success">✦ &nbsp; Bedankt! Ik neem snel contact op.</p>
-      </div>
+      <form class="contact-right reveal" action="https://formspree.io/f/xnjgvnbj" method="POST">
+  <input type="hidden" name="_replyto" />
+  <div>
+    <p class="contact-form-label">Jouw naam</p>
+    <input class="contact-input" type="text" name="name" placeholder="Naam" required/>
+  </div>
+  <div>
+    <p class="contact-form-label">E-mailadres</p>
+    <input class="contact-input" type="email" name="email" placeholder="email@voorbeeld.nl" required/>
+  </div>
+  <div>
+    <p class="contact-form-label">Telefoonnummer</p>
+    <input class="contact-input" type="text" name="phone" placeholder="06 12 34 56 78"/>
+  </div>
+  <div>
+    <p class="contact-form-label">Bericht</p>
+    <textarea class="contact-textarea" name="message" placeholder="Vertel me over je project..." required></textarea>
+  </div>
+  <button type="submit" class="btn-outline">Verstuur bericht →</button>
+</form>
     </div>
   </section>
 
