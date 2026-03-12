@@ -239,7 +239,7 @@
           </div>
         </div>
       </div>
-      <form class="contact-right reveal" action="https://formspree.io/f/xnjgvnbj" method="POST">
+      <form class="contact-right reveal" id="contact-form">
   <input type="hidden" name="_replyto" />
   <div>
     <p class="contact-form-label">Jouw naam</p>
@@ -258,6 +258,9 @@
     <textarea class="contact-textarea" name="message" placeholder="Vertel me over je project..." required></textarea>
   </div>
   <button type="submit" class="btn-outline">Verstuur bericht →</button>
+  <div id="success-msg" style="display:none; margin-top:16px; padding:14px 20px; background:#2d4a35; color:#a8d5b5; border-radius:6px; font-size:0.82rem; letter-spacing:0.04em;">
+    ✦ &nbsp; Je bericht is verstuurd — we nemen zo snel mogelijk contact op.
+  </div>
 </form>
     </div>
   </section>
@@ -298,6 +301,18 @@
       document.getElementById('f-email').value = '';
       document.getElementById('f-msg').value = '';
     }
+    const form = document.getElementById('contact-form');
+form.addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const data = new FormData(form);
+  await fetch('https://formspree.io/f/xnjgvnbj', {
+    method: 'POST',
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+  form.reset();
+  document.getElementById('success-msg').style.display = 'block';
+});
   </script>
 </body>
 </html>
